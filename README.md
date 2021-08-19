@@ -1,2 +1,3 @@
 # Notícia de COVID-19
-Criação de um site de notícias otimistas relacionados à COVID-19
+
+O objetivo é  um site de notícias básica  relacionados à COVID-19 usando as ferramentas HTML e CSS.
