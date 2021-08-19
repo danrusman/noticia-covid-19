@@ -14,8 +14,10 @@ Construir uma landing page com as 6 melhores notícias sobre o COVID-19, usando 
 - CSS</br>
 
 ### Autoria
-- [Cleber](https://github.com/cleberjf)
+Número do grupo: 05
+
+- [Cleber Jeferson da Silva ](https://github.com/cleberjf)
 - [Daniel Russo Manrique](https://github.com/danrusman/)
-- [Eduardo](https://github.com/syaoranea)
-- [Erika]()
-- [Marcos](https://github.com/marcosalexandre100)
+- [Eduardo Rocha](https://github.com/syaoranea)
+- [Erika Fonseca]()
+- [Marcos Alexandre Gomes de Souza ](https://github.com/marcosalexandre100)
