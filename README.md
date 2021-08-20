@@ -12,6 +12,7 @@ Construir uma landing page com as 6 melhores notícias sobre o COVID-19, usando 
 ### Linguagens
 - HTML</br>
 - CSS</br>
+- JavaScript</br>
 
 ### Autoria
 Número do grupo: 05
