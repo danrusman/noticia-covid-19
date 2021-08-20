@@ -1,0 +1,10 @@
+#superior{
+    background-color: #005c9f;
+    height: 55px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
