@@ -40,6 +40,8 @@ a {
     font-size: 124%;
     color: #F3F4F5;
     justify-content: space-around;
+    padding-left: 600px;
+    padding-right: 600px;
     display: flex;
     align-items: center;
 }
@@ -51,18 +53,50 @@ a {
     margin-bottom: 200px;
 }
 
-.podcast{
+#podcast1{
     width:540px; /* you can use % */
     height: auto;
+    object-fit: cover;
+    border: 5px solid #939597;
+}
+
+#podcast2{
+    width:540px;
+    height: 250px;
+    object-fit: cover;
+    border: 5px solid #939597;
 }
 
 .texto {
     margin-left: 900px;
-    margin-top: -1429px;
+    margin-top: -1150px;
 }
 
 #texto2 {
     width: 50%;
+}
+
+#texto1 {
+    width: 400px; /* width of container */
+    height: 250px; /* height of container */
+    object-fit: cover;
+    border: 5px solid #939597;
+}
+
+#texto2 {
+    width: 400px; /* width of container */
+    height: 250px; /* height of container */
+    object-fit: cover;
+    object-position: 0px 0px; /* try 20% 10% */ 
+    border: 5px solid #939597;
+}
+
+#texto3 {
+    width: 400px; /* width of container */
+    height: 250px; /* height of container */
+    object-fit: cover;
+    object-position: -90px 0px; /* try 20% 10% */ 
+    border: 5px solid #939597;
 }
 
 .barraDireitos{
@@ -76,9 +110,6 @@ a {
     padding-top: 15px;
 }
 
-
-
-
-/*#texto {
-    padding: 4.0%;
+.vacinometro {
+    padding-top: 500px;
 }
