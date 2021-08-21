@@ -1,0 +1,143 @@
+*{ /* resertar as configurações do navegador */ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#cabecalho{
+    background-color: #005c9f;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    color:#f3f4f5;
+}
+
+.menu ul li a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#f3f4f5;
+    text-decoration: none;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 18px;
+    font-size: 20px;
+    text-align: justify;
+    
+}
+
+.menu-list{
+    background-color: #00a4b4;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 20px;
+    list-style: none;
+}
+
+fieldset{
+    border: 3px solid black;
+    padding: 10px;
+}
+
+#box{
+    border: 2px solid #a39e9e93;
+    background-color:white;
+    padding: 60px;
+    max-width: 400px;
+    margin: 20px auto;
+    margin-top: 40px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px gray;
+    
+}
+ 
+legend{
+        border: 1px solid black;
+        padding: 5px;
+        margin-bottom: 5px;
+        text-align: center;
+        font-size: 20px;
+        margin: 20px auto;
+        margin-top: 40px;
+        border-radius: 10px;
+        background-image: linear-gradient(to right,#005c9f);
+    }
+    
+input, textarea{ 
+    background: none;
+    border:none;
+    border-bottom:  1px solid black;
+    outline: none;
+    color: black;
+    font-size: 15px;
+    width: 95%;
+    letter-spacing: 2px;
+    margin-right: 10px;
+}
+
+#submit{
+    width: 100%;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 10px auto;
+    justify-content: space-around;
+    background-color: #005c9f;
+    color: white;
+}
+#submit:houver {
+    background-color: #00a4b4;
+
+}
+input[type="checkbox"]{
+    display: flex;
+    justify-content: space-between;
+  }
+
+.rodape2{
+    background-color: #005c9f;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    color:#f3f4f5;
+    font-size: 20px;   
+}
+
+.rodape1{
+    background-color: #00a4b4;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    list-style: none;
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#f3f4f5;
+    margin-top: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 15px;
+}
+::placeholder{
+    font-size: 9px;
+    width: 100%;
+}
+.checkbox{
+    margin: 0;
+    padding: 0;
+
+}
+input[type='text']:hover,
+input[type='email']:hover,
+textarea:hover,
+input[type='tel']:hover{ /* CONFIGURAÇÃO DOS INPUTS QUANDO PASSARMOS O CURSOR */
+    background-color: #00a4b4;
+    border-radius: 3px;
+
+}
+
+
+
+
