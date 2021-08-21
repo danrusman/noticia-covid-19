@@ -14,8 +14,16 @@ a {
     text-decoration: unset;
 }
 
+p{
+    color: #F3F4F5;
+    text-decoration: unset;
+    text-shadow: black;
+}
+
 #cabecalho {
-    margin: 0px;
+    margin: 0%;
+    display: flexbox;
+    text-align: center;
 }
 
 #superior{
@@ -28,13 +36,16 @@ a {
     text-align: center;
     margin-top: -65px;
     margin-bottom: 35px;
+
 }
 
 #logoNovasNoticias {
     width: 7%;
-    margin-left: 200px;
+    margin-right: 60%;
+    margin-top: 1%;
+/*    margin-left: 200px;
     margin-top: 10px;
-    
+  */  
 }
 
 .nav-list {
@@ -77,6 +88,7 @@ a {
     object-fit: cover;
     object-position: 0px 0px;
     border: 5px solid #939597;
+    font-weight: 100;
 }
 
 #pod1, #pod2{
