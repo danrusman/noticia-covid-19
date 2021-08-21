@@ -1,0 +1,145 @@
+/***RESETAR CONFIGURAÇÕES DOS NAVEGADORES ***/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/***ESTILO DO MENU ***/
+
+.topo{
+    background-color: #005c9f;
+    height: 55px;
+}
+
+h1{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding-top: 8px;
+}
+
+nav {
+
+  align-items: center;
+  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+  background: #00a4b4;
+  height: 32px;
+}
+
+.menu{
+    width: 80%;
+    margin: auto;
+}
+
+a{
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+ 
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-list li {
+  letter-spacing: 3px;
+  margin-left: 32px;
+  font-weight: 600;
+  padding-bottom: 24px;
+  margin-top: 5px;
+}
+
+.nav-list li a:hover{
+border-bottom: 4px solid #fff;
+margin-top: 20px;
+padding-bottom: 4px;
+}
+
+.mobile-menu {
+  display: none;
+  cursor: pointer;
+}
+
+.mobile-menu div {
+  width: 32px;
+  height: 2px;
+  background: #fff;
+  margin: 8px;
+  transition: 0.3s;
+}
+
+.content{
+    width: 80%;
+    margin: auto;
+}
+
+.flexcontent{
+    display: flex;
+}
+
+.itemcontent{
+    width: 450px;
+    background-color: #c4c4c4;
+    display: flex;
+    padding: 10px;
+    margin-right: 40px;
+}
+
+.itenesque{
+    width: 130px;
+}
+
+.itemdireito{
+    width: 300px;
+}
+
+.nome{
+    margin-bottom: 10px;
+    background-color: #878383;
+}
+
+.descricao{
+    background-color: #878383;
+}
+.imgfoto{
+    border-radius: 50%;
+    width: 80px;
+    margin: 10px;
+}
+
+.imglink{
+    width: 30px;
+    bottom: 10px;
+}
+
+
+/***ESTILO PARA AJUSTE EM DIFERENTES RESOLUÇÃO ***/
+
+@media (max-width: 799px) {
+    body {
+      overflow: hidden;
+    }
+    .nav-list {
+      position: absolute;
+      top: 8vh;
+      right: 0;
+      width: 50vw;
+      height: 92vh;
+      background: #00a4b4;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      transform: translateX(100%);
+      
+    }
+    .nav-list li {
+      margin-left: 0;
+      opacity: 0;
+    }
+    .mobile-menu {
+      display: block;
+    }
+}

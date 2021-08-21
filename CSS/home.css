@@ -1,0 +1,153 @@
+/***RESETAR CONFIGURAÇÕES DOS NAVEGADORES ***/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F3F4F5;
+}
+
+a {
+    color: #F3F4F5;
+    text-decoration: unset;
+}
+
+#cabecalho {
+    margin: 0px;
+}
+
+#superior{
+    background-color: #005c9f;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #F3F4F5;
+}
+
+#home {
+    text-align: center;
+    margin-top: -65px;
+    margin-bottom: 35px;
+}
+
+#logoNovasNoticias {
+    width: 7%;
+    margin-left: 200px;
+    margin-top: 10px;
+    
+}
+
+.nav-list {
+    background-color: #00A4B4;
+    height: 55px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 164%;
+    color: #F3F4F5;
+    justify-content: space-around;
+    padding-left: 600px;
+    padding-right: 600px;
+    display: flex;
+    align-items: center;
+}
+
+.barraInformacoes {
+    background-color: #00A4B4;
+    height: 55px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 124%;
+    color: #F3F4F5;
+    justify-content: space-around;
+    padding-left: 500px;
+    padding-right: 500px;
+    display: flex;
+    align-items: center;
+}
+
+#noticia {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+
+#video1 {
+    margin-left:auto;
+    margin-top: auto;
+    width: 600px;
+    object-fit: cover;
+    object-position: 0px 0px;
+    border: 5px solid #939597;
+}
+
+#pod1, #pod2{
+    margin-left:auto;
+    margin-top: auto;
+    width: 200px;
+    object-fit: cover;
+    object-position: 0px 0px;
+    border: 5px solid #939597;
+}
+
+
+
+.texto {
+    margin-left: 900px;
+    margin-top: -800px;
+}
+
+#texto1 {
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+    border: 5px solid #939597;
+}
+
+#texto2 {
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+    object-position: 0px 0px;
+    border: 5px solid #939597;
+}
+
+#texto3 {
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+    object-position: -90px 0px;
+    border: 5px solid #939597;
+}
+/*
+#podcast1{
+    width:540px;
+    height: auto;
+    object-fit: cover;
+    border: 5px solid #939597;
+}
+
+#podcast2{
+    width:540px;
+    height: 250px;
+    object-fit: cover;
+    border: 5px solid #939597;
+}*/
+
+.barraDireitos{
+    background-color: #005c9f;
+    height: 55px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 124%;
+    color: #F3F4F5;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.vacinometro {
+    padding-top: 40px;
+    width: 20px;
+}
+
+#imgVac {
+    border: 5px solid #939597;
+}
