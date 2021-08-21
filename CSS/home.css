@@ -1,10 +1,53 @@
 #superior{
     background-color: #005c9f;
     height: 55px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #F3F4F5;
+    justify-content: space-between;
+}
+
+#barraInformacoes{
+    background-color: #005c9f;
+    height: 55px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #F3F4F5;
+    justify-content: space-between;
+}
+
+#barraDireitos{
+    background-color: #00A4B4;
+    height: 55px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #F3F4F5;
+    text-align: center;
 }
 
 .nav-list {
-    list-style: none;
-    display: flex;
+    background-color: #00A4B4;
+    height: 55px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #F3F4F5;
     justify-content: space-between;
+    display: flex;
+
+}
+
+#noticia {
+      margin: 200px;
   }
+
+#logoNovasNoticias {
+    width: 4.5%;
+    margin-left: 200px;
+    margin-top: 2px;
+}
+
+#home {
+    text-align: center;
+    margin-top: -60px;
+}
+
+#texto {
+    padding: 4.0%;
+}
+
