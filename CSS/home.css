@@ -1,10 +1,50 @@
+/***RESETAR CONFIGURAÇÕES DOS NAVEGADORES ***/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    
+    text-decoration: unset;
+}
+
 #superior{
     background-color: #005c9f;
-    height: 55px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #F3F4F5;
-    justify-content: space-between;
 }
+
+#home {
+    text-align: center;
+    margin-top: -50px;
+    margin-bottom: 20px;
+}
+
+#logoNovasNoticias {
+    width: 5%;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+.nav-list {
+    background-color: #00A4B4;
+    height: 55px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 124%;
+    color: #F3F4F5;
+    justify-content: space-around;
+    display: flex;
+    padding-top: 15px;
+}
+
+
+
+#noticia {
+    margin: 200px;
+}
+
 
 #barraInformacoes{
     background-color: #005c9f;
@@ -22,30 +62,9 @@
     text-align: center;
 }
 
-.nav-list {
-    background-color: #00A4B4;
-    height: 55px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #F3F4F5;
-    justify-content: space-between;
-    display: flex;
 
-}
 
-#noticia {
-      margin: 200px;
-  }
 
-#logoNovasNoticias {
-    width: 4.5%;
-    margin-left: 200px;
-    margin-top: 2px;
-}
-
-#home {
-    text-align: center;
-    margin-top: -60px;
-}
 
 #texto {
     padding: 4.0%;
