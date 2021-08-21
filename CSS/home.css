@@ -30,6 +30,7 @@ a {
     width: 5%;
     margin-left: 200px;
     margin-top: 10px;
+    
 }
 
 .nav-list, .barraInformacoes {
@@ -46,11 +47,22 @@ a {
 #noticia {
     margin-top: 50px;
     margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 200px;
 }
 
-.podcast, .texto{
+.podcast{
     width:540px; /* you can use % */
     height: auto;
+}
+
+.texto {
+    margin-left: 900px;
+    margin-top: -1429px;
+}
+
+#texto2 {
+    width: 50%;
 }
 
 .barraDireitos{
@@ -65,9 +77,7 @@ a {
 }
 
 
-#texto2 {
-    width: 30%;
-}
+
 
 /*#texto {
     padding: 4.0%;
