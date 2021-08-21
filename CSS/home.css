@@ -17,7 +17,7 @@ a {
 p{
     color: #F3F4F5;
     text-decoration: unset;
-    text-shadow: black;
+    text-shadow: black 1px 1px 5px;
 }
 
 #cabecalho {
@@ -169,6 +169,6 @@ p{
 }
 
 #imgVac {
-    width: 45%;
+    width: 750px;
     border: 5px solid #939597;
 }
