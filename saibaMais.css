@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+#cabecalho{
+    background-color: #005c9f;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    color:#f3f4f5;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif, Courier, monospace;
+    background:blue;
+    height: 70px;
+    
+}
+  
+.menu-list {
+    list-style: none;
+    display: flex;
+}
+  
+.menu-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+.menu a:hover {
+  opacity: 0.7;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+#img_vacina{
+    display:flex;
+    background-size: 5%;
+    background-position: cen;
+    margin-top: 10%;
+        
+
+    /*width: 5%;
+    border-radius: 3px 3px 3px 3px;
+    margin-left: 5%; */
+}
+.noticia figcaption{
+  margin-top: 5%;
+}
+.noticia img{
+  width: 390px;
+  height: 190px;
+  position:relative;
+    
+}
+
+.noticia:hover img{
+    -webkit-transform: scale(1.1);
+    transform:scale(1.1);
+}
+.noticia figcaption{
+  position: absolute;
+  font-size:  50px;
+  color: black;
+  
+}
+
+#link{
+    color: rgb(242, 242, 247);
+}
+
+.text{
+  padding: 5px;
+  position: absolute;
+  color: #fff;
+  font-size: 5px;
+  
+}
+.text:hover{
+  text-shadow: 1px 1px 1px rgb(228, 247, 255);
+}
+
+.direita{
+  position: absolute;
+  right: 10px;
+}
+
+.noticia{
+    width: 40%;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 2px;
+    text-align: justify;
+    display: inline-block;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+}
+
+footer{
+ 
+  width: 100%;
+  height: 100%;
+}
+.rodape2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif, Courier, monospace;
+  background: #4b1b94;
+  height: 80px;
+  
+  width: 100%;
+}
+
+.bran{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+
+h2{
+  padding: 20px;
+  margin: 0;
+  text-align: center;
+  color: rgb(111, 18, 161);
+  font-size: 28px;
+  border-right: 2px solid rgb(47, 3, 70);
+  margin-right: 30px;
+}
+
+h1 {
+  font-size: 25px;
+  line-height: 25px;
+  padding: 10px;
+  text-align: center;
+}
+
+.corpo{
+  max-width: 1500px;
+  margin: 10px;
+}
