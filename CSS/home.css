@@ -1,11 +1,79 @@
 /***RESETAR CONFIGURAÇÕES DOS NAVEGADORES ***/
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
-* {
+/***RESETAR CONFIGURAÇÕES DOS NAVEGADORES ***/
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+/***ESTILO DO MENU ***/
+
+.topo{
+  background-color: #005c9f;
+  height: 10vh;
+  display: flex;
+}
+
+.topo img
+{
+  height: 70px;
+  margin: 10px;
+  display: flex;
+  margin: auto;
+}
+
+nav {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 18px;
+  background: #00a4b4;
+  height: 63px;
+}
+
+.menu{
+  width: 80%;
+  margin: auto;
+}
+
+a{
+  color: #f3f4f5;
+  text-decoration: none;
+  transition: 0.3s;
+}
+ 
+.nav-list {
+  width: 460px;
+  list-style: none;
+  display: flex; 
+  margin: auto; 
+}
+
+.nav-list li {
+  padding-top: 20px;
+  padding-bottom: 24px;
+  margin-top: 5px;
+  margin: auto;
+}
+
+.nav-list li a:hover{
+border-bottom: 4px solid #fff;
+margin-top: 20px;
+padding-bottom: 4px;
+}
+
+.mobile-menu {
+  display: none;
+  cursor: pointer;
+  padding-top: 17px;
+}
+
+.mobile-menu div {
+  width: 32px;
+  height: 2px;
+  background: #fff;
+  margin-bottom: 8px;
+  transition: 0.3s;
 }
 
 html,
@@ -21,10 +89,6 @@ body {
   font-size: 18px;
 }
 
-a {
-  color: #f3f4f5;
-  text-decoration: unset;
-}
 
 p {
   color: #f3f4f5;
@@ -32,40 +96,70 @@ p {
   /* text-shadow: black 1px 1px 5px; */
 }
 
-nav
-{
-  background-color: #005c9f;
-  color: #f3f4f5;
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: 94px auto;
-    align-items: center;
-    justify-items: center;
-    text-align: center;
+
+/***ESTILO PARA AJUSTE EM DIFERENTES RESOLUÇÃO ***/
+
+@media (max-width: 799px) {
+  body {
+    overflow-x: hidden;
+  }
+  .nav-list {
+  position: absolute;
+  top: 13vh;
+  right: 0;
+  width: 30vw;
+  height: 100%;
+  padding-bottom: 20px;
+  background: #00a4b4;
+  flex-direction: column;
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in;
+  }
+  .nav-list li {
+    margin: auto;
+    opacity: 0;
+  }
+  .mobile-menu {
+    display: block;
+  }
+  .itemcontent{
+    width:850px;
+  }
+  .mgri{
+    margin-right: 0;
+  }
+  .itemdireito{
+    width: 320px;  
+  }
 }
 
-nav img
-{
-  height: 70px;
-  margin: 20px;
+.nav-list.active {
+  transform: translateX(0);
 }
 
-nav .menu
-{
-  background-color: #00a4b4;
-  padding: 20px;
-  width: 100%;
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
-nav .menu ul a
-{
-  margin-right: 50px;
+.mobile-menu.active .line1 {
+  transform: rotate(-45deg) translate(-8px, 8px);
 }
 
-nav .menu ul a:last-child
-{
-  margin-right: 0px;
+.mobile-menu.active .line2 {
+  opacity: 0;
 }
+
+.mobile-menu.active .line3 {
+  transform: rotate(45deg) translate(-5px, -7px);
+}
+
 
 .container {
   display: grid;
