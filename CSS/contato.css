@@ -88,14 +88,8 @@ input, textarea{
     color: white;
 }
 #submit:houver {
-    background-color: #00a4b4;
-
+    background-color: #00a4b4;     
 }
-input[type="checkbox"]{
-    display: flex;
-    justify-content: space-between;
-  }
-
 .rodape2{
     background-color: #005c9f;
     padding: 20px;
