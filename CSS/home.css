@@ -22,7 +22,8 @@ body {
 h1 {
   justify-content: center;
   color: #f3f4f5;
-  padding-bottom: 20px;
+  padding-bottom: -20px;
+  padding-top: -40px;
 }
 
 a {
@@ -70,6 +71,9 @@ nav .menu ul a:last-child {
   transform: rotate(45deg) translate(-5px, -7px);
 }
 
+footer li {
+  margin-bottom: 10px;
+}
 
 .container {
   display: grid;
@@ -283,5 +287,5 @@ footer .direitos {
 
 footer ul, footer .direitos {
   color: #f3f4f5;
-  padding: 30px;
+  padding: 10px;
 }
