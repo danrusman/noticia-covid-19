@@ -8,17 +8,21 @@
   box-sizing: border-box;
 }
 
-html,
-body,
-.container {
+html, body, .container {
   height: 100%;
   margin: 0;
 }
 
 body {
-  background-color: #939597;
+  background-color: #f3f4f5;
   font-family: 'IBM Plex Sans', sans-serif;
   font-size: 18px;
+}
+
+h1 {
+  justify-content: center;
+  color: #f3f4f5;
+  padding-bottom: 20px;
 }
 
 a {
@@ -32,8 +36,7 @@ p {
   /* text-shadow: black 1px 1px 5px; */
 }
 
-nav
-{
+nav {
   background-color: #005c9f;
   color: #f3f4f5;
   display: grid;
@@ -44,26 +47,22 @@ nav
     text-align: center;
 }
 
-nav img
-{
+nav img {
   height: 70px;
   margin: 20px;
 }
 
-nav .menu
-{
+nav .menu {
   background-color: #00a4b4;
   padding: 20px;
   width: 100%;
 }
 
-nav .menu ul a
-{
+nav .menu ul a {
   margin-right: 50px;
 }
 
-nav .menu ul a:last-child
-{
+nav .menu ul a:last-child {
   margin-right: 0px;
 }
 
@@ -122,9 +121,7 @@ nav .menu ul a:last-child
   grid-area: noticias;
 }
 
-.noticia-1,
-.noticia-2,
-.noticia-3 {
+.noticia-1, .noticia-2, .noticia-3 {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 380px 60px;
@@ -189,8 +186,7 @@ nav .menu ul a:last-child
   grid-area: podcasts;
 }
 
-.podcast-1,
-.podcast-2 {
+.podcast-1, .podcast-2 {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 120px 40px;
@@ -228,46 +224,33 @@ nav .menu ul a:last-child
   grid-area: legenda-audio-2;
 }
 
-.audio-1 iframe,
-.audio-2 iframe {
+.audio-1 iframe, .audio-2 iframe {
   height: 100%;
   width: 100%;
 }
 
-.video,
-.noticia-1,
-.noticia-2,
-.noticia-3,
-.podcast-1,
-.podcast-2 {
-  background-color: rgba(255, 255, 255, 0.15);
+.video, .noticia-1, .noticia-2, .noticia-3, .podcast-1, .podcast-2 {
+  background-color: #c4c4c4;
 }
 
-.noticia-1,
-.noticia-2,
-.noticia-3,
-.podcast-1,
-.podcast-2 {
+.noticia-1, .noticia-2, .noticia-3, .podcast-1, .podcast-2 {
   display: grid;
   justify-items: center;
   text-align: center;
 }
 
-.podcast-1,
-.podcast-2 {
+.podcast-1, .podcast-2 {
   text-align: center;
 }
 
-.vacinometro
-{
+.vacinometro {
   background-color: #2177FE;
   display: grid;
   grid-area: vacinometro;
   justify-content: center;
 }
 
-footer
-{
+footer {
   background-color: #00a4b4;
   text-align: center;
   display: grid;
@@ -278,26 +261,22 @@ footer
   top: 100%;
 }
 
-footer ul
-{
+footer ul {
   display: flex;
-  justify-content: space-evenly
+  justify-content: center;
 }
 
-footer ul li
-{
+footer ul li {
   list-style: none;
 }
 
-footer .direitos
-{
+footer .direitos {
   background-color: #005c9f;
   height: 100%;
   width: 100%;
 }
 
-footer ul, footer .direitos
-{
+footer ul, footer .direitos {
   color: #f3f4f5;
   padding: 30px;
 }
