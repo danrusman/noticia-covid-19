@@ -161,10 +161,6 @@ p {
   transform: rotate(45deg) translate(-5px, -7px);
 }
 
-footer li {
-  margin-bottom: 10px;
-}
-
 .container {
   display: grid;
   grid-template-columns: 70%;
@@ -366,6 +362,10 @@ footer {
 footer ul {
   display: flex;
   justify-content: center;
+}
+
+footer li {
+  margin-bottom: 10px;
 }
 
 footer ul li {
