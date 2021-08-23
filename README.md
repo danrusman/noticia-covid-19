@@ -14,6 +14,9 @@ Construir uma landing page com as 6 melhores notícias sobre o COVID-19, usando 
 - CSS</br>
 - JavaScript</br>
 
+### Hospedagem
+- Netlify, link: https://grupo-5-noticia-covid-19.netlify.app
+
 ### Autoria
 Número do grupo: 05
 
