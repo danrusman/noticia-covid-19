@@ -48,6 +48,14 @@ nav {
     text-align: center;
 }
 
+.menu ul a:hover{
+border-bottom: 4px solid #fff;
+margin-top: 20px;
+padding-bottom: 4px;
+}
+
+
+
 nav img {
   height: 70px;
   margin: 20px;
