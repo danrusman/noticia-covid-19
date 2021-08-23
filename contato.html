@@ -1,28 +1,36 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!--<link rel='stylesheet' type='text/css' media='screen' href='main.css'>-->
+    <script src='main.js'></script>
+    <link rel="stylesheet" href="CSS/contato.css">
     <title>N - Novas Notícias</title>
-           <link rel="stylesheet" href="../noticia-covid-19/css/contato.css">
-          
-   </head>
-   
-   <body>
-       <!--Cabecalho-->
-       <div id="cabecalho">
-           <img id="logoNovasNoticias" src="./imagens/logo_Novas_Noticias.png">
-       </div>
-       <!--Menu-->
-         <div class="menu">
-             <ul class="menu-list">
-               <li><a href="index.html">Home</a></li>
-               <li><a href="sobre.html">Sobre</a></li>
-               <li><a href="contato.html">Contato</a></li>
-               <li><a href="saibaMais.html">Saiba Mais</a></li>
-             </ul>
-         </div>
+</head>
+<body>
+    <header>
+        <div class="topo">
+            <img id="logoNovasNoticias" src="imagens/logo_Novas_Noticias.png">
+            
+        </div>  
+        <nav>
+            <div class="menu">
+                <div class="mobile-menu">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="saibaMais.html">Saiba Mais</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
    <!--Formulário-->
    <div id="box">
       <form  name="formcadastro" action="">
@@ -59,18 +67,20 @@
          </fieldset>
       </form> 
    </div>
+  </br>
+</br>
    <!--roda-pe-->
-  <footer>
-     <div class="rodape1">
-      <p>O objetivo deste projeto é compartilhar notícias positivas sobre a Covid-19 que viraram destaque na mídia.</p>
-      <h1>Gama News</h1>
-     </div>
-     <div class="rodape2">
-      <p>© 2021 Grupo 5 da terceira turma - Todos os direitos reservados.</p>
-      <p>Programa de Formação Tech Itaú PCD em parceria com a Gama Academy.</p>
-     </div>
-  </footer>
-
+   <footer>
+    <div class="container">
+        <p>O objetivo deste projeto é compartilhar notícias positivas sobre a Covid-19 que viraram destaque na mídia.</p>
+        <h1>Gama News</h1>
+        <div class="container2">
+            <p>© 2021 Grupo 5 da terceira turma - Todos os direitos reservados.</p>
+            <p>Programa de Formação Tech Itaú PCD em parceria com a Gama Academy.</p>
+        </div>
+    </div>
+</footer>
+<script src="JavaScript/mobile-navbar.js"></script>
 </body>
 
 </hmtl>

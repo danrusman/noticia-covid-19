@@ -1,8 +1,8 @@
 /***RESETAR CONFIGURAÇÕES DOS NAVEGADORES ***/
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
-* {
+/***RESETAR CONFIGURAÇÕES DOS NAVEGADORES ***/
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -65,6 +65,11 @@ nav .menu ul a {
 nav .menu ul a:last-child {
   margin-right: 0px;
 }
+
+.mobile-menu.active .line3 {
+  transform: rotate(45deg) translate(-5px, -7px);
+}
+
 
 .container {
   display: grid;
