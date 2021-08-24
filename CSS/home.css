@@ -340,13 +340,6 @@ p {
   text-align: center;
 }
 
-.vacinometro {
-  background-color: #2177FE;
-  display: grid;
-  grid-area: vacinometro;
-  justify-content: center;
-}
-
 footer {
   background-color: #00a4b4;
   text-align: center;
